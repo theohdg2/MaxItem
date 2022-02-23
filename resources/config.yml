@@ -1,0 +1,12 @@
+#if one is on true put the other on false otherwise there could be a duplication bug
+#choose if you want to clear or drop the excess items
+drop-item: false
+clear-item: true
+
+#define all items to be modified
+#the name of the item doesn't really matter
+maxItem:
+  stone:
+    id: 1
+    meta: 0
+    max: 16
